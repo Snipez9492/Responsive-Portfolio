@@ -1,0 +1,239 @@
+/* {
+    box-sizing: content-box;
+    text-align: center;
+  }*/
+  
+  h2{
+    float:left;
+    margin-left:50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+header {
+    background: white;
+    /*width: 100%;*/
+    height:93px;
+  } 
+  
+body {
+    padding: 0;
+    /* margin: 0;*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    /*background: #f2f6f7;*/
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/stonehaven.png);
+  }
+
+h1 {
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #eee;
+    text-align: center;
+    background: teal;
+    margin-left:150px;
+    width:250px;
+    float:left;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+
+/*#My-Bio
+#My-Image{
+float: left;
+    }
+
+#My-Bio{
+    width: 80%;
+    }*/
+hr{
+    margin-left:50px;
+    margin-right:50px;
+}
+#contact{
+    float:right;
+    margin-right:315px;
+}
+
+#section{
+    float:left;
+    margin-left:150px;
+    width:650px;
+    background-color:white;
+}
+#about{
+    display:inline-block;
+}
+#My-Image{
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+    float: left;
+    padding:20px;
+   }
+
+   /*div{
+       width: 300px;
+       border: 25px seagreen;
+       padding: 25px;
+       margin: 25px; 
+   }*/
+#relative{
+    position: relative;
+    float: left;
+    height: 200px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background: #eee;
+   }
+
+#contact{
+    width:270px;
+    background-color:white; 
+    margin-right:50px;
+}
+
+#connect{
+    text-align:center;
+}
+
+#contact-images{
+    text-align: center;
+}
+
+
+footer{
+    position: fixed;
+    left: 0%;
+    bottom: 0%;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-bottom: 900px;
+    border-color: teal;
+}
+
+.contact-form{
+    margin-left: 50px;      
+}
+
+#message{
+    height: 300px;
+    width: 250%;
+}
+
+input[type=text]{
+    width: 95%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+}
+
+#submit{
+    color: teal;
+    font-size: 18px;
+    width: 120px;
+    height: 50px;
+    background: #4aaaa5;
+}
+
+#Placeholder{
+    margin: 12px 20px 12px 40px;
+}
+img{
+    float: right;
+}
+#fixed{
+    /* position: fixed;
+*/
+
+display: inline-block;
+}
+
+.wrapper {
+    /* Box-model */
+    width: 1024px;
+  
+    /* Positioning */
+    margin: 40px auto;
+  }
+  
+  #main-content,
+  #sidebar {
+    /* Box-model */
+    width: 500px;
+    padding: 30px;
+  }
+  
+  #main-content {
+    /* Positioning */
+    float: left;
+  
+    /* Visual */
+    background: #fff;
+  }
+  
+  #sidebar {
+    /* Positioning */
+    float: right;
+  
+    /* Visual */
+    background: #eee;
+  }
+  
+  @media screen and (max-width: 980px) {
+    body {
+      background-color: #333;
+      
+    }
+  
+    .wrapper {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+  
+    #main-content,
+    #sidebar {
+      width: 100%;
+    }
+  
+    #sidebar {
+      margin-top: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    body {
+      background-color: red;
+    }
+  }
+  .wrapper {
+    /* Box-model */
+    width: 100%;
+    padding: 20px;
+  }
+
+  #main-content,
+  #sidebar {
+    width: 100%;
+  }
+
+  #sidebar {
+    margin-top: 40px;
+  }
+  @media screen and (max-width: 640px){
+      body{
+          background-color: green;
+      }
+  }
+  
+
+
